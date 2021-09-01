@@ -1,3 +1,13 @@
+function myFunction(){
+    var image = document.getElementById("theme");
+    if(document.body.style.backgroundImage.match("Media/Box.svg")){
+        document.body.style.backgroundImage = "url(Media/Bubble.svg)";  
+    }
+    else{
+        document.body.style.backgroundImage = "url(Media/Box.svg)";
+    }
+}
+
 const form = document.getElementById("form");
 const input = document.getElementById("input");
 const todosUL = document.getElementById("todos");
